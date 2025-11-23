@@ -1,5 +1,5 @@
 <template>
-  <div>dgfsdfs</div>
+  <div>agents page</div>
 </template>
 
 <script setup lang="ts"></script>
