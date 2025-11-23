@@ -1,0 +1,32 @@
+<template>
+  <header class="header bg-warning-100">
+    <div class="flex center justify-between px-[40px] py-[18px]">
+      <div class="header__left flex items-center gap-[37px]">
+        <NuxtLink class="text-[15px]" to="/">Annoncé</NuxtLink>
+        <button>Все категории</button>
+      </div>
+
+      <div class="header__right flex items-center gap-[24px]">
+        <div class="header__city flex items-center gap-[7px]">
+          <AppPinIcon />
+          <span class="text-[15px]/[24px]">Ростов-на-Дону</span>
+        </div>
+
+        <hr class="w-[1px] h-[32px] bg-gray-300 border-none" />
+
+        <span
+          class="text-[15px]/[24px] text-blue-500 cursor-pointer font-medium"
+        >
+          Разместить объявление
+        </span>
+
+        <AppUserActions />
+      </div>
+    </div>
+  </header>
+</template>
+
+<script setup lang="ts">
+import AppPinIcon from "@/components/icons/AppPinIcon.vue";
+import AppUserActions from '@/components/business/AppUserAction.vue'
+</script>

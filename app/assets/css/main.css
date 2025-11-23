@@ -3,7 +3,11 @@
 @theme {
   --color-warning-100: oklch(0.9791 0.018 78.24);
   --color-bg-primary: oklch(0.9702 0 0);
+
+  --color-blue-500: oklch(0.5149 0.0718 176.21);
+
   --color-gray-900: oklch(0.1684 0 0);
   --color-gray-500: oklch(0.5278 0 0);
+  --color-gray-300: oklch(0.8452 0 0);
   --color-gray-100: oklch(0.8914 0 0);
 }
