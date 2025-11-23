@@ -1,5 +1,5 @@
 <template>
-  <div class="app-company-info flex flex-col items-center m-auto">
+  <div class="app-company-info flex flex-col items-center mx-auto pb-[33px]">
     <img src="/img/company-logo.png" alt="" class="w-[120px] h-[120px]" />
     <h3 class="text-gray-900 text-[24px]/[28px] text-bold mt-[24px]">
       Наследие
