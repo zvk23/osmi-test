@@ -1,14 +1,16 @@
 <template>
   <div class="py-[32px]">
-    <div class="flex justify-center mb-[24px]">
-      <AppSelect
-        v-model="selected"
-        :options="categories"
-        class="w-full max-w-[300px]"
-      />
-    </div>
+    <ClientOnly>
+      <div class="flex justify-center mb-[24px] px-[12px] md:p-0">
+        <AppSelect
+          v-model="selected"
+          :options="categories"
+          class="w-full max-w-full md:max-w-[300px]"
+        />
+      </div>
+    </ClientOnly>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[8px]">
+    <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-[8px]">
       <AppGoodCard v-for="good in goods" :good="good" />
     </div>
   </div>

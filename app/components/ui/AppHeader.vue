@@ -6,7 +6,7 @@
         <button>Все категории</button>
       </div>
 
-      <div class="header__right flex items-center gap-[24px]">
+      <div class="header__right items-center gap-[24px] hidden lg:flex">
         <div class="header__city flex items-center gap-[7px]">
           <AppPinIcon />
           <span class="text-[15px]/[24px]">Ростов-на-Дону</span>
@@ -22,11 +22,14 @@
 
         <AppUserActions />
       </div>
+
+      <AppCardIcon class="lg:hidden" />
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
 import AppPinIcon from "@/components/icons/AppPinIcon.vue";
+import AppCardIcon from "@/components/icons/AppCardIcon.vue";
 import AppUserActions from '@/components/business/AppUserAction.vue'
 </script>
