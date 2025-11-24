@@ -10,4 +10,9 @@
   --color-gray-500: oklch(0.5278 0 0);
   --color-gray-300: oklch(0.8452 0 0);
   --color-gray-100: oklch(0.8914 0 0);
+  --color-gray-60: oklch(0.2308 0.0101 268.24);
+  --color-gray-50: oklch(0.9461 0 0);
+  
+  
+  --color-negative-500: oklch(0.5303 0.1782 30.12);
 }
