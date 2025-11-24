@@ -3,7 +3,7 @@
     <div class="flex center justify-between px-[40px] py-[18px]">
       <div class="header__left flex items-center gap-[37px]">
         <NuxtLink class="text-[15px]" to="/">Annoncé</NuxtLink>
-        <button>Все категории</button>
+        <AppCatalogButton />
       </div>
 
       <div class="header__right items-center gap-[24px] hidden lg:flex">
@@ -29,7 +29,8 @@
 </template>
 
 <script setup lang="ts">
-import AppPinIcon from "@/components/icons/AppPinIcon.vue";
-import AppCardIcon from "@/components/icons/AppCardIcon.vue";
-import AppUserActions from '@/components/business/AppUserAction.vue'
+import AppPinIcon from "~/components/icons/AppPinIcon.vue";
+import AppCardIcon from "~/components/icons/AppCardIcon.vue";
+import AppUserActions from '~/components/business/AppUserAction.vue'
+import AppCatalogButton from "~/components/business/AppCatalogButton.vue";
 </script>
