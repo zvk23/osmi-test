@@ -2,7 +2,7 @@
   <header class="header bg-warning-100">
     <div class="flex center justify-between px-[40px] py-[18px]">
       <div class="header__left flex items-center gap-[37px]">
-        <NuxtLink class="text-[15px]" to="/">Annoncé</NuxtLink>
+        <NuxtLink class="text-[28px]/[28px] font-semibold header-logo" to="/">Annoncé</NuxtLink>
         <AppCatalogButton />
       </div>
 
@@ -34,3 +34,9 @@ import AppCardIcon from "~/components/icons/AppCardIcon.vue";
 import AppUserActions from '~/components/business/AppUserAction.vue'
 import AppCatalogButton from "~/components/business/AppCatalogButton.vue";
 </script>
+
+<style scoped>
+.header-logo {
+   font-family: "Noto Serif", serif;
+}
+</style>
